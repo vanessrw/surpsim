@@ -1,0 +1,14 @@
+.uni .navbar {
+    background-color: var(--color-secondary-darker);
+}
+
+.uni .gambarAtas {
+    text-align: center;
+    padding-bottom: 30px;
+}
+@media screen and ( min-width: 990px) {
+    .uni .event .event-wrapper {
+        flex-direction: row;
+        height: 250px;
+    }
+}

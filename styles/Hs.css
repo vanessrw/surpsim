@@ -1,0 +1,14 @@
+.hs .navbar {
+    background-color: var(--color-secondary-darker);
+}
+
+.hs .gambarAtas {
+    text-align: center;
+    padding-bottom: 30px;
+}
+@media screen and ( min-width: 990px) {
+    .hs .event .event-wrapper {
+        flex-direction: row;
+        height: 250px;
+    }
+}
