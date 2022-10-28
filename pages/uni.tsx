@@ -10,6 +10,8 @@ import Event from 'components/organism/Event';
 import Header from 'components/organism/EventHeader';
 import Image from 'next/image';
 import EventTitle from 'components/organism/EventTitle';
+import Video from 'components/organism/Video'; 
+/*import {ReactVideoPlay, VideoSourceType} from 'react-video-play'; */
 
 export default function uni() {
   useEffect(() => {
@@ -17,14 +19,19 @@ export default function uni() {
   }, []);
 
   return (
+
     <div className="uni">
         <Navbar />
         <Header title="wishes-uni" />
         <div className="gambarAtas">
           <span id="bg_biru">
-          <Image src="/image/image_icon.png" alt="" width={450} height={350}></Image>
+          <Image src="/image/image_icon.png" alt="" width={500} height={400}></Image>
+          <Video 
+          link = "https://www.youtube.com/watch?v=c_10qS7amjk"
+          />
           </span>
         </div>
+
         <Event
         title="BLABLABLA"
         subtitle="ORANG 1"
@@ -39,7 +46,7 @@ export default function uni() {
         illustrationPath="/image/image_icon.png"
         anchorTarget="_blank"
         />
-                <Event
+        <Event
         title="XCVBN"
         subtitle="ORANG 3"
         description='QWERTYUIOP ASDFG HJKL ZXC VBNM'
