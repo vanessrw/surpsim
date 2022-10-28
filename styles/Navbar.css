@@ -51,8 +51,11 @@
     font-size: medium;
 }
 
+.navbar .navbar-wrapper .menu .menu-item a.link:hover {
+    color: rgb(142, 214, 236);
+}
 .navbar .navbar-wrapper .menu .menu-item a.link:focus {
-    color: yellow;
+    color: rgb(199, 199, 199);
     font-weight: 600;
     font-size: medium;
 }

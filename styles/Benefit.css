@@ -14,6 +14,14 @@
     margin-bottom: -52px;
 }
 
+.benefit .button.primary:hover {
+    background-color: red;
+}
+  
+.benefit .button.primary:focus {
+    background-color: grey;
+}
+
 .benefit .benefit-wrapper .benefit-card {
     width: 200px;
     height: fit-content;

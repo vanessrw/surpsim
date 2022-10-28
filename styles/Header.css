@@ -18,9 +18,13 @@
 .event-header-container .judul-atas .h1 {
     margin-bottom: 6px;
     font-family: "Inter", sans-serif;
+    font-size: 3.5rem;
 }
 
 @media screen and ( min-width: 672px) {
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+    }
 }
 
 @media screen and ( min-width: 990px) {
@@ -28,7 +32,15 @@
         flex-direction: row;
         text-align: end;
     }
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+        font-size: 5rem;
+    }
 }
 
 @media screen and ( min-width: 1296px) {
+    .event-header-container .judul-atas .h1 {
+        padding-top: 30px;
+        font-size: 5rem;
+    }
 }
