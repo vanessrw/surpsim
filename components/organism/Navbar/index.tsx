@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-wrapper wrapper">
-        <Link href="/" passHref>
+        <Link href="/home" passHref>
           <Image
             className="logo"
             src="/image/home.png"
