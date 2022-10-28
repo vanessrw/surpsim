@@ -15,6 +15,7 @@ import '../styles/Uni.css';
 import '../styles/Hs.css';
 import '../styles/Gz.css';
 import '../styles/style.css';
+import "../styles/countdown.css"
 function MyApp({Component, pageProps}: AppProps) {
   return (
     <>
