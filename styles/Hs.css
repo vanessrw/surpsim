@@ -1,3 +1,6 @@
+.hs {
+    text-align: -webkit-center;
+}
 .hs .navbar {
     background-color: var(--color-secondary-darker);
 }
@@ -5,6 +8,16 @@
 .hs .gambarAtas {
     text-align: center;
     padding-bottom: 30px;
+    display: inline-table
+}
+
+.hs .gambarAtas .Video {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.hs .event {
+    text-align: initial;
 }
 @media screen and ( min-width: 990px) {
     .hs .event .event-wrapper {
