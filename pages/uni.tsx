@@ -10,8 +10,6 @@ import Event from 'components/organism/Event';
 import Header from 'components/organism/EventHeader';
 import Image from 'next/image';
 import EventTitle from 'components/organism/EventTitle';
-import Video from 'components/organism/Video'; 
-/*import {ReactVideoPlay, VideoSourceType} from 'react-video-play'; */
 
 export default function uni() {
   useEffect(() => {
@@ -26,9 +24,6 @@ export default function uni() {
         <div className="gambarAtas">
           <span id="bg_biru">
           <Image src="/image/image_icon.png" alt="" width={500} height={400}></Image>
-          <Video 
-          link = "https://www.youtube.com/watch?v=c_10qS7amjk"
-          />
           </span>
         </div>
 
