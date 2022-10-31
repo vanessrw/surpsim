@@ -1,8 +1,13 @@
 .countdown{
-    text-align: -webkit-center;
+  text-align: -webkit-center;
+  min-width: max-content;
+  background: center;
+  min-height: max-content;
+  background-image: url(/image/bg.png);
 }
+
 .countdown .judul {
-    color: black;
+    color: white;
     font-size: 50px;
     /*font-family: "Salaryman";*/
 }
@@ -14,7 +19,7 @@
 .countdown .timer-wrapper {
     background-color: white;
     padding: 2rem;
-    border: solid 6px black;
+    border: solid 6px red;
     border-radius: 5px;
     z-index: 2;
 }
@@ -207,6 +212,9 @@
   }
 
 @media  screen and ( max-width: 760px ){
+    .countdown{
+      padding-bottom: 900px;
+    }
     .countdown .judul {
         padding-bottom: 15px;
         padding-top: 50%;
@@ -216,5 +224,8 @@
 @media screen and ( min-width: 1296px) {
     .countdown .timer-inner {
         margin-left: 22%;
+    }
+    .countdown{
+      padding-bottom: 300px;
     }
 }
