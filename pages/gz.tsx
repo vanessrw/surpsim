@@ -22,7 +22,7 @@ export default function uni() {
         <Header title="wishes-gz" />
         <div className="gambarAtas">
           <span id="bg_biru">
-          <Image src="/image/image_icon.png" alt="" width={450} height={350}></Image>
+          <Image src="/foto/gz.jpg" alt="" width={450} height={350}></Image>
           </span>
         </div>
         <Event
