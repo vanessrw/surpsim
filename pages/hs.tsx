@@ -6,10 +6,11 @@ import 'aos/dist/aos.css';
 
 import Footer from 'components/organism/Footer';
 import Navbar from 'components/organism/Navbar';
-import Event from 'components/organism/Event';
+//import Event from 'components/organism/Event';
 import Header from 'components/organism/EventHeader';
 import Image from 'next/image';
-import EventTitle from 'components/organism/EventTitle';
+//import EventTitle from 'components/organism/EventTitle';
+import EventHs from 'components/organism/EventHs';
 
 export default function hs() {
   useEffect(() => {
@@ -23,29 +24,9 @@ export default function hs() {
         <div className="gambarAtas">
           <span id="bg_biru">
           <Image src="/image/image_icon.png" alt="" width={450} height={350}></Image>
-          </span>
+          </span> 
         </div>
-        <Event
-        title="BLABLABLA"
-        subtitle="ORANG 1"
-        description='QWERTYUIOP ASDFG HJKL ZXC VBNM'
-        illustrationPath="/image/image_icon.png"
-        anchorTarget="_blank"
-        />
-        <Event
-        title="ASDF"
-        subtitle="ORANG 2"
-        description='QWERTYUIOP ASDFG HJKL ZXC VBNM'
-        illustrationPath="/image/image_icon.png"
-        anchorTarget="_blank"
-        />
-        <Event
-        title="XCVBN"
-        subtitle="ORANG 3"
-        description='QWERTYUIOP ASDFG HJKL ZXC VBNM'
-        illustrationPath="/image/image_icon.png"
-        anchorTarget="_blank"
-        />
+        <EventHs />
         <Footer />
     </div>
   );
