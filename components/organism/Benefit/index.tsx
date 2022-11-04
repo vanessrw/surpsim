@@ -16,13 +16,13 @@ export default function Benefit() {
             title="HS" 
             description="throwback hs" 
             iconPath="/image/image_icon.png" 
-            buttonDestination="/" 
+            buttonDestination="/hs" 
             buttonText="go to messages" />
 
             <BenefitCard title="GZ" 
             description="summercamp" 
             iconPath="/image/image_icon.png" 
-            buttonDestination="/" 
+            buttonDestination="/gz" 
             buttonText="go to messages" />
         </div>
     </div>
