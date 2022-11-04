@@ -1,0 +1,14 @@
+.evenths {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.evenths .vids {
+    display: flex;
+}
+
+@media screen and (min-width: 900px) {
+    .evenths .vids {
+        display: flex;
+    }
+}
