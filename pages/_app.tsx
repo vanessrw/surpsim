@@ -16,7 +16,7 @@ import '../styles/Hs.css';
 import '../styles/Gz.css';
 import '../styles/style.css';
 import "../styles/countdown.css"
-import "../styles/evenths.css"
+import "../styles/EventHs.css"
 function MyApp({Component, pageProps}: AppProps) {
   return (
     <>
