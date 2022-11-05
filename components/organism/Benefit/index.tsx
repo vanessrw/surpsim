@@ -8,7 +8,7 @@ export default function Benefit() {
             <BenefitCard 
             title="UNI" 
             description="life at uni" 
-            iconPath="/image/image_icon.png" 
+            iconPath="/foto/uni.jpg" 
             buttonDestination="/uni" 
             buttonText="go to messages" />
 
@@ -21,7 +21,7 @@ export default function Benefit() {
 
             <BenefitCard title="GZ" 
             description="summercamp" 
-            iconPath="/image/image_icon.png" 
+            iconPath="/foto/gzkotak.jpg" 
             buttonDestination="/gz" 
             buttonText="go to messages" />
         </div>
