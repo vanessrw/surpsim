@@ -3,11 +3,65 @@
     width: 100%;
 }
 
+.evenths .vids .vid1:hover {
+    opacity: 80%;
+}
+.evenths .vids .vid2:hover {
+    opacity: 80%;
+}
+.evenths .vids .vid3:hover {
+    opacity: 80%;
+}
+.evenths .vids .vid4:hover {
+    opacity: 80%;
+}
 
-@media screen and (min-width: 672px) {
+.eventgz {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.eventgz .vidgz {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.eventgz .vidgz .vid1gz {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 22px;
+}
+.eventgz .vidgz .vid1gz:hover {
+    opacity: 80%;
+}
+
+.eventgz .vidgz .event-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventgz .vidgz .event-content p {
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 672px) {
     .evenths .vids {
         display: flex;
         flex-direction: column;
+    }
+    .eventgz .vidgz {
+        text-align: left;
+    }
+    .eventgz .vidgz .vid1gz {
+        padding-left: 20px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 22px;
+    }
+    .eventgz .vidgz .event-content {
+        padding-left: 20px;
     }
 }
 
@@ -16,6 +70,11 @@
         display: flex;
         flex-direction: column;
     }
+    .eventgz .vidgz .vid1gz {
+        height: 300px;
+        margin-left: -43%;
+    }
+    
 }
 
 @media screen and ( min-width: 1296px) {
@@ -24,5 +83,34 @@
         flex-direction: row;
         justify-content: center;
         column-gap: 30px;
+    }
+    .eventgz {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        grid-column-gap: 30px;
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+    }
+    .eventgz .vidgz {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .eventgz .vidgz .vid1gz {
+        height: 300px;
+        margin-left: -65%;
+    }
+    .eventgz .vidgz .event-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .eventgz .vidgz .event-content .content {
+        width: max-content;
+        margin-left: -22%;
+        text-align: -webkit-left;
+        padding-left: -15px;
     }
 }
