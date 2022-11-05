@@ -3,7 +3,6 @@
   min-width: max-content;
   background: center;
   min-height: max-content;
-  background-image: url(/image/bg.png);
 }
 
 .countdown .judul {
@@ -213,7 +212,7 @@
 
 @media  screen and ( max-width: 760px ){
     .countdown{
-      padding-bottom: 800px;
+      padding-bottom: 700px;
     }
     .countdown .judul {
         padding-bottom: 15px;
