@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("11/07/2021 00:00:00");
+    const target = new Date("11/07/2022 00:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();
