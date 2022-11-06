@@ -21,13 +21,16 @@ export default function hs() {
     <div className="hs">
         <Navbar />
         <Header title="wishes-hs" />
-        <div className="gambarAtas">
-          <span id="bg_biru">
-          <Image src="/image/image_icon.png" alt="" width={450} height={350}></Image>
-          </span> 
-        </div>
         <EventHs />
         <Footer />
     </div>
   );
 }
+
+/*        
+<div className="gambarAtas">
+  <span id="bg_biru">
+    <Image src="/image/image_icon.png" alt="" width={450} height={350}></Image>
+  </span> 
+</div>
+*/
