@@ -9,7 +9,7 @@ export default function EventHs() {
     <div className="eventgz">
       <div className="vidgz">
         <div className="vid1gz">
-          <Link href="https://youtu.be/4M_4y75lfO8" passHref>
+          <Link href="https://youtu.be/G8f52Zk4cMA" passHref>
             <Image
               data-aos="fade-up"
               className="thumbnail"
