@@ -20,6 +20,18 @@ export default function EventHs() {
             ></Image>
           </Link>
         </div>
+        <div className="vid2">
+          <Link href="https://youtu.be/lWEQj5E6mjY" passHref>
+            <Image
+              data-aos="fade-up"
+              className="thumbnail"
+              src="/foto/uni2.jpg"
+              alt="vid thumbnail"
+              width={500}
+              height={500}
+            ></Image>
+          </Link>
+        </div>
       </div>
     </div>
   );
