@@ -15,7 +15,7 @@ export default function Benefit() {
             <BenefitCard 
             title="HS" 
             description="throwback hs" 
-            iconPath="/image/image_icon.png" 
+            iconPath="/foto/hskotak.jpg" 
             buttonDestination="/hs" 
             buttonText="go to messages" />
 
